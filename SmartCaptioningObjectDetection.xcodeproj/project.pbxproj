@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		54152EA62E6E31D400A2F6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54152E8B2E6E31D300A2F6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54152E922E6E31D300A2F6AB;
+			remoteInfo = SmartCaptioningObjectDetection;
+		};
+		54152EB02E6E31D400A2F6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54152E8B2E6E31D300A2F6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54152E922E6E31D300A2F6AB;
+			remoteInfo = SmartCaptioningObjectDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54152E932E6E31D300A2F6AB /* SmartCaptioningObjectDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCaptioningObjectDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54152EA52E6E31D400A2F6AB /* SmartCaptioningObjectDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCaptioningObjectDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54152EAF2E6E31D400A2F6AB /* SmartCaptioningObjectDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCaptioningObjectDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		54152E952E6E31D300A2F6AB /* SmartCaptioningObjectDetection */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartCaptioningObjectDetection;
+			sourceTree = "<group>";
+		};
+		54152EA82E6E31D400A2F6AB /* SmartCaptioningObjectDetectionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartCaptioningObjectDetectionTests;
+			sourceTree = "<group>";
+		};
+		54152EB22E6E31D400A2F6AB /* SmartCaptioningObjectDetectionUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartCaptioningObjectDetectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54152E902E6E31D300A2F6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54152EA22E6E31D400A2F6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54152EAC2E6E31D400A2F6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54152E8A2E6E31D300A2F6AB = {
+			isa = PBXGroup;
+			children = (
+				54152E952E6E31D300A2F6AB /* SmartCaptioningObjectDetection */,
+				54152EA82E6E31D400A2F6AB /* SmartCaptioningObjectDetectionTests */,
+				54152EB22E6E31D400A2F6AB /* SmartCaptioningObjectDetectionUITests */,
+				54152E942E6E31D300A2F6AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54152E942E6E31D300A2F6AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54152E932E6E31D300A2F6AB /* SmartCaptioningObjectDetection.app */,
+				54152EA52E6E31D400A2F6AB /* SmartCaptioningObjectDetectionTests.xctest */,
+				54152EAF2E6E31D400A2F6AB /* SmartCaptioningObjectDetectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54152E922E6E31D300A2F6AB /* SmartCaptioningObjectDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54152EB92E6E31D400A2F6AB /* Build configuration list for PBXNativeTarget "SmartCaptioningObjectDetection" */;
+			buildPhases = (
+				54152E8F2E6E31D300A2F6AB /* Sources */,
+				54152E902E6E31D300A2F6AB /* Frameworks */,
+				54152E912E6E31D300A2F6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				54152E952E6E31D300A2F6AB /* SmartCaptioningObjectDetection */,
+			);
+			name = SmartCaptioningObjectDetection;
+			packageProductDependencies = (
+			);
+			productName = SmartCaptioningObjectDetection;
+			productReference = 54152E932E6E31D300A2F6AB /* SmartCaptioningObjectDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54152EA42E6E31D400A2F6AB /* SmartCaptioningObjectDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54152EBC2E6E31D400A2F6AB /* Build configuration list for PBXNativeTarget "SmartCaptioningObjectDetectionTests" */;
+			buildPhases = (
+				54152EA12E6E31D400A2F6AB /* Sources */,
+				54152EA22E6E31D400A2F6AB /* Frameworks */,
+				54152EA32E6E31D400A2F6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54152EA72E6E31D400A2F6AB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				54152EA82E6E31D400A2F6AB /* SmartCaptioningObjectDetectionTests */,
+			);
+			name = SmartCaptioningObjectDetectionTests;
+			packageProductDependencies = (
+			);
+			productName = SmartCaptioningObjectDetectionTests;
+			productReference = 54152EA52E6E31D400A2F6AB /* SmartCaptioningObjectDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54152EAE2E6E31D400A2F6AB /* SmartCaptioningObjectDetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54152EBF2E6E31D400A2F6AB /* Build configuration list for PBXNativeTarget "SmartCaptioningObjectDetectionUITests" */;
+			buildPhases = (
+				54152EAB2E6E31D400A2F6AB /* Sources */,
+				54152EAC2E6E31D400A2F6AB /* Frameworks */,
+				54152EAD2E6E31D400A2F6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54152EB12E6E31D400A2F6AB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				54152EB22E6E31D400A2F6AB /* SmartCaptioningObjectDetectionUITests */,
+			);
+			name = SmartCaptioningObjectDetectionUITests;
+			packageProductDependencies = (
+			);
+			productName = SmartCaptioningObjectDetectionUITests;
+			productReference = 54152EAF2E6E31D400A2F6AB /* SmartCaptioningObjectDetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54152E8B2E6E31D300A2F6AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					54152E922E6E31D300A2F6AB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					54152EA42E6E31D400A2F6AB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 54152E922E6E31D300A2F6AB;
+					};
+					54152EAE2E6E31D400A2F6AB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 54152E922E6E31D300A2F6AB;
+					};
+				};
+			};
+			buildConfigurationList = 54152E8E2E6E31D300A2F6AB /* Build configuration list for PBXProject "SmartCaptioningObjectDetection" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54152E8A2E6E31D300A2F6AB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 54152E942E6E31D300A2F6AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54152E922E6E31D300A2F6AB /* SmartCaptioningObjectDetection */,
+				54152EA42E6E31D400A2F6AB /* SmartCaptioningObjectDetectionTests */,
+				54152EAE2E6E31D400A2F6AB /* SmartCaptioningObjectDetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54152E912E6E31D300A2F6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54152EA32E6E31D400A2F6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54152EAD2E6E31D400A2F6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54152E8F2E6E31D300A2F6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54152EA12E6E31D400A2F6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54152EAB2E6E31D400A2F6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54152EA72E6E31D400A2F6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54152E922E6E31D300A2F6AB /* SmartCaptioningObjectDetection */;
+			targetProxy = 54152EA62E6E31D400A2F6AB /* PBXContainerItemProxy */;
+		};
+		54152EB12E6E31D400A2F6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54152E922E6E31D300A2F6AB /* SmartCaptioningObjectDetection */;
+			targetProxy = 54152EB02E6E31D400A2F6AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54152EB72E6E31D400A2F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54152EB82E6E31D400A2F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54152EBA2E6E31D400A2F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartCaptioningObjectDetection/Preview Content\"";
+				DEVELOPMENT_TEAM = A8978LUS7S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is required to capture the images to detect and caption them.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vamsikrishna.SmartCaptioningObjectDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54152EBB2E6E31D400A2F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartCaptioningObjectDetection/Preview Content\"";
+				DEVELOPMENT_TEAM = A8978LUS7S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is required to capture the images to detect and caption them.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vamsikrishna.SmartCaptioningObjectDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54152EBD2E6E31D400A2F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8978LUS7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "don-t-have-one.SmartCaptioningObjectDetectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCaptioningObjectDetection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartCaptioningObjectDetection";
+			};
+			name = Debug;
+		};
+		54152EBE2E6E31D400A2F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8978LUS7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "don-t-have-one.SmartCaptioningObjectDetectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCaptioningObjectDetection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartCaptioningObjectDetection";
+			};
+			name = Release;
+		};
+		54152EC02E6E31D400A2F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8978LUS7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "don-t-have-one.SmartCaptioningObjectDetectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartCaptioningObjectDetection;
+			};
+			name = Debug;
+		};
+		54152EC12E6E31D400A2F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8978LUS7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "don-t-have-one.SmartCaptioningObjectDetectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartCaptioningObjectDetection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54152E8E2E6E31D300A2F6AB /* Build configuration list for PBXProject "SmartCaptioningObjectDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54152EB72E6E31D400A2F6AB /* Debug */,
+				54152EB82E6E31D400A2F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54152EB92E6E31D400A2F6AB /* Build configuration list for PBXNativeTarget "SmartCaptioningObjectDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54152EBA2E6E31D400A2F6AB /* Debug */,
+				54152EBB2E6E31D400A2F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54152EBC2E6E31D400A2F6AB /* Build configuration list for PBXNativeTarget "SmartCaptioningObjectDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54152EBD2E6E31D400A2F6AB /* Debug */,
+				54152EBE2E6E31D400A2F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54152EBF2E6E31D400A2F6AB /* Build configuration list for PBXNativeTarget "SmartCaptioningObjectDetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54152EC02E6E31D400A2F6AB /* Debug */,
+				54152EC12E6E31D400A2F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54152E8B2E6E31D300A2F6AB /* Project object */;
+}

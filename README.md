@@ -1,5 +1,3 @@
-# SmartCaptioningObjectDetection
-Captioning and Detecting the images/photos using Apples Foundation Models
 # 📸 Smart Captioning & Object Detection App
 
 An on-device iOS app built with **SwiftUI**, **Vision**, and **Core ML** that enables users to detect objects and generate captions for selected images or camera-captured photos. Results are stored using **SwiftData**, and the UI is fully native and responsive.
@@ -46,27 +44,28 @@ An on-device iOS app built with **SwiftUI**, **Vision**, and **Core ML** that en
 
 ## 📂 Folder Structure
 
+```
 SmartCaptioningObjectDetection/
 │
 ├── Models/
-│ └── DetectedItem.swift
+│   └── DetectedItem.swift
 │
 ├── ViewModels/
-│ └── DetectionViewModel.swift
+│   └── DetectionViewModel.swift
 │
 ├── Views/
-│ ├── ContentView.swift
-│ ├── ObjectDetectionView.swift
-│ ├── DetectionOverlay.swift
-│ ├── DetectedItemListView.swift
-│ └── ImagePicker.swift
+│   ├── ContentView.swift
+│   ├── ObjectDetectionView.swift
+│   ├── DetectionOverlay.swift
+│   ├── DetectedItemListView.swift
+│   └── ImagePicker.swift
 │
 ├── ML Models/
-│ └── YOLOv3Tiny.mlmodelc
+│   └── YOLOv3Tiny.mlmodelc
 │
 └── Resources/
-└── Assets.xcassets
-
+    └── Assets.xcassets
+```
 
 ---
 
@@ -85,4 +84,35 @@ SmartCaptioningObjectDetection/
    ```bash
    git clone https://github.com/vamsikrishna7909/SmartCaptioningObjectDetection.git
    cd SmartCaptioningObjectDetection
+   ```
 
+2. Open `SmartCaptioningObjectDetection.xcodeproj`
+
+3. Download and drag **YOLOv3Tiny.mlmodel** into the **ML Models** group
+
+4. Build & run on a real iPhone (not the simulator)
+
+---
+
+## 📌 Roadmap
+
+- [x] Object Detection with YOLOv3-Tiny
+- [x] Save & view detection history
+- [x] Delete detection records with confirmation
+- [ ] Captioning using BLIP or similar Core ML model
+- [ ] Live camera detection (real-time Vision streaming)
+- [ ] Export results to Notes / Files
+
+---
+
+## 👨‍💻 Author
+
+**Vamsi Krishna Sivakavi**  
+[Portfolio](https://vamsikrishna7909.github.io) | [LinkedIn](https://linkedin.com/in/vamsi7909/) | [GitHub](https://github.com/vamsikrishna7909)
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.  
+Feel free to fork, modify, and contribute!
